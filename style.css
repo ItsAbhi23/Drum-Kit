@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(bodybackground.jpg);
+}
+
+.container {
+    justify-content: center;
+    position: absolute;
+    top: 600px;
+    padding: 20px;
+    /* left: 200px; */
+    right: 350px;
+}
+
+.btn {
+    width: 300px;
+    height: 400px;
+    margin: auto 10px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-color: black;
+    cursor: pointer;
+    color: rgb(239 27 200);
+    font-size: 70px;
+}
+
+.heading {
+       position: absolute;
+       top: 300px;
+       right: 1300px;
+    text-align: center;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(248, 10, 10);
+}
+
+.btn1 {
+    margin: 10px;
+    background-image: url(image/bass-drum12.png);
+}
+
+.btn2 {
+    margin: 10px;
+
+    background-image: url(image/snare-drum12.png);
+}
+
+.btn3 {
+    margin: 10px;
+    background-image: url(image/tom-drum12.png);
+    background-repeat: no-repeat;
+}
+
+.btn4 {
+    margin: 10px;
+    background-image: url(image/floor-tom12.png);
+    background-repeat: no-repeat;
+}
+
+.btn5 {
+    margin: 10px;
+    background-image: url(image/bass-drum222.jpg);
+    background-repeat: no-repeat;
+}
+
+.btn6 {
+    margin: 10px;
+    background-image: url(image/ride-cymbal12.png);
+    background-repeat: no-repeat;
+}
+
+.btn7 {
+    margin: 10px;
+    background-image: url(image/WTS-easy-tune-drums.png);
+    background-repeat: no-repeat;
+    background-color: black;
+}
